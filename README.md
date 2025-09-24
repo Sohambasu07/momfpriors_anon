@@ -193,3 +193,6 @@ Each optimization run generates a `pandas.DataFrame` containing comprehensive ex
 | `benchmark.fidelity.1.max` | Maximum value for the first fidelity dimension in the benchmark. |
 
 ---
+
+## Raw Runs for PriMO
+The raw runs of `PriMO` on all benchmarks are contained in `./primo_20_evals.tar.gz`
