@@ -1,0 +1,46 @@
+optimizers:
+  - name: RandomSearchWithPriors
+  - name: RandomSearch
+  - name: SMAC_ParEGO
+  - name: NepsRW
+  - name: NepsHyperbandRW
+  - name: Nevergrad_EvolutionStrategy
+  - name: NepsMOASHA
+  - name: NepsPriorMOASHA
+  - name: NepsMOASHABO
+benchmarks:
+  - name: yahpo-lcbench-126026
+    objectives:
+      val_cross_entropy: good
+      time: good
+  - name: yahpo-lcbench-146212
+    objectives:
+      val_cross_entropy: good
+      time: good
+  - name: yahpo-lcbench-168330
+    objectives:
+      val_cross_entropy: good
+      time: good
+  - name: yahpo-lcbench-168868
+    objectives:
+      val_cross_entropy: good
+      time: good
+  - name: yahpo-lcbench-126026
+    objectives:
+      val_cross_entropy: bad
+      time: bad
+  - name: yahpo-lcbench-146212
+    objectives:
+      val_cross_entropy: bad
+      time: bad
+  - name: yahpo-lcbench-168330
+    objectives:
+      val_cross_entropy: bad
+      time: bad
+  - name: yahpo-lcbench-168868
+    objectives:
+      val_cross_entropy: bad
+      time: bad
+
+num_seeds: 25
+num_iterations: 25

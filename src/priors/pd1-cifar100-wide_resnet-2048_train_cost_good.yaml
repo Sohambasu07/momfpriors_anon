@@ -1,0 +1,8 @@
+benchmark: pd1-cifar100-wide_resnet-2048
+config:
+  lr_decay_factor: 0.6908987956648968
+  lr_initial: 0.31027208286030117
+  lr_power: 1.0
+  opt_momentum: 0.9525357236530767
+objective: train_cost
+prior_name: good

@@ -1,0 +1,9 @@
+yaml_files:
+  - configs/plot_configs/exp/robust_subset1_ov_bad.yaml
+  - configs/plot_configs/exp/robust_subset2_ov_bad.yaml
+output_dir: /home/XXXX/XXXX/plots/exp/
+save_suffix: exp_robust_ov_bad_ranking
+file_type: pdf
+figsize:
+  - 14
+  - 6

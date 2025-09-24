@@ -1,0 +1,15 @@
+exp_dir: bo_comp_25
+output_dir: /home/XXXX/XXXX/plots/misc/
+save_suffix: bo_comp_25
+skip_priors:
+  - good-good
+  - bad-good
+which_labels: "1"
+which_plots:
+  - hv
+  - pareto
+  - ov_rank
+specific_fig_params:
+  - xylabel_fontsize=20
+  - ovrank_xsize=6
+  - ovrank_ysize=4

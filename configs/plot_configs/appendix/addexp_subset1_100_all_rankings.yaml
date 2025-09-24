@@ -1,0 +1,15 @@
+yaml_files:
+  - configs/plot_configs/appendix/addexp_subset1_100_goodgood.yaml
+  - configs/plot_configs/appendix/addexp_subset1_100_ov_bad.yaml
+  - configs/plot_configs/appendix/addexp_subset1_100_ov_all.yaml
+output_dir: /home/XXXX/XXXX/plots/appendix_extra/
+save_suffix: addexp_subset1_100_all_rankings
+file_type: pdf
+figsize:
+  - 18
+  - 6
+sub_labels:
+  - good-good
+  - overall-bad
+  - overall-all
+remove_prior_annots: true

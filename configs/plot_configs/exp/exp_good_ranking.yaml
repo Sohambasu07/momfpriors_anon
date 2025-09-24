@@ -1,0 +1,9 @@
+yaml_files:
+  - configs/plot_configs/exp/exp_subset1_goodgood.yaml
+  - configs/plot_configs/exp/exp_subset2_goodgood.yaml
+output_dir: /home/XXXX/XXXX/plots/exp/
+save_suffix: exp_good_ranking
+file_type: pdf
+figsize:
+  - 14
+  - 6

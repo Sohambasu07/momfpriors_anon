@@ -1,0 +1,20 @@
+exp_dir: subset1
+output_dir: /home/XXXX/XXXX/ICLR/plots/exp/
+skip_priors:
+  - bad-good
+  - bad-bad
+  - good-bad
+save_suffix: subset1_all_good
+skip_opt:
+  - RandomSearchWithPriors
+skip_bench:
+  - MOMFPark
+which_labels: "1"
+which_plots:
+  - hv
+  - pareto
+specific_fig_params:
+  - bbox_to_anchor=(0.5, -0.08)
+figsize:
+  - 16
+  - 8

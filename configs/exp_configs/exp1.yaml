@@ -1,0 +1,53 @@
+optimizers:
+  - name: RandomSearch
+  - name: SMAC_ParEGO
+  - name: NepsRW
+  - name: NepsHyperbandRW
+  - name: Nevergrad_EvolutionStrategy
+  - name: NepsMOASHA
+  - name: NepsPiBORW
+  - name: NepsMOASHABO
+  - name: NepsPriMO
+benchmarks:
+  - name: MOMFPark
+    objectives:
+      value1: good
+      value2: good
+  - name: MOMFPark
+    objectives:
+      value1: bad
+      value2: bad
+  - name: pd1-cifar100-wide_resnet-2048
+    objectives:
+      valid_error_rate: good
+      train_cost: good
+  - name: pd1-imagenet-resnet-512
+    objectives:
+      valid_error_rate: good
+      train_cost: good
+  - name: pd1-lm1b-transformer-2048
+    objectives:
+      valid_error_rate: good
+      train_cost: good
+  - name: pd1-translate_wmt-xformer_translate-64
+    objectives:
+      valid_error_rate: good
+      train_cost: good
+  - name: pd1-cifar100-wide_resnet-2048
+    objectives:
+      valid_error_rate: bad
+      train_cost: bad
+  - name: pd1-imagenet-resnet-512
+    objectives:
+      valid_error_rate: bad
+      train_cost: bad
+  - name: pd1-lm1b-transformer-2048
+    objectives:
+      valid_error_rate: bad
+      train_cost: bad
+  - name: pd1-translate_wmt-xformer_translate-64
+    objectives:
+      valid_error_rate: bad
+      train_cost: bad
+num_seeds: 25
+num_iterations: 25

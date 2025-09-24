@@ -1,0 +1,15 @@
+yaml_files:
+  - configs/plot_configs/exp/exp_naive_goodgood.yaml
+  - configs/plot_configs/exp/exp_naive_ov_bad.yaml
+  - configs/plot_configs/exp/exp_naive_ov_all.yaml
+output_dir: /home/XXXX/XXXX/plots/exp/
+save_suffix: exp_naive_all_rankings
+file_type: pdf
+figsize:
+  - 18
+  - 6
+sub_labels:
+  - good-good
+  - overall-bad
+  - overall-all
+remove_prior_annots: true

@@ -1,0 +1,22 @@
+exp_dir: subset1_100
+output_dir: /home/XXXX/XXXX/plots/appendix_extra/
+skip_non_avg: true
+priors_to_avg:
+  - good-good
+  - bad-good
+  - bad-bad
+avg_prior_label: overall-all
+save_suffix: addexp_subset1_100_ov_all
+skip_opt:
+  - RandomSearchWithPriors
+  - RandomSearch
+  - NepsHyperbandRW
+which_labels: "1"
+which_plots:
+  - hv
+  - pareto
+specific_fig_params:
+  - xylabel_fontsize=20
+  - ovrank_xsize=6
+  - ovrank_ysize=4
+  - bbox_to_anchor=(0.5, -0.08)

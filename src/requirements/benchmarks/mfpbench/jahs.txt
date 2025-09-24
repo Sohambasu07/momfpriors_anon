@@ -1,0 +1,2 @@
+jahs_bench==1.2.0
+pandas<1.4

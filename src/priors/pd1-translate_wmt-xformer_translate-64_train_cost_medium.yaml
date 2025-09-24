@@ -1,0 +1,8 @@
+benchmark: pd1-translate_wmt-xformer_translate-64
+config:
+  lr_decay_factor: 0.8830935395241447
+  lr_initial: 9.8422475735
+  lr_power: 1.0
+  opt_momentum: 0.9989999746
+objective: train_cost
+prior_name: medium

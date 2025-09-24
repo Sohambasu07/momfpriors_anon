@@ -1,0 +1,19 @@
+exp_dir: subset1
+output_dir: /home/XXXX/XXXX/plots/intro/
+priors_to_avg:
+  - good-good
+  - bad-good
+save_suffix: ov-common
+skip_non_avg: True
+skip_opt:
+  - RandomSearchWithPriors
+  - Nevergrad_EvolutionStrategy
+  - SMAC_ParEGO
+  - NepsHyperbandRW
+avg_prior_label: overall-common
+which_labels: intro
+which_plots: ov_rank
+specific_fig_params:
+  - xylabel_fontsize=20
+  - ovrank_xsize=4
+  - ovrank_ysize=3

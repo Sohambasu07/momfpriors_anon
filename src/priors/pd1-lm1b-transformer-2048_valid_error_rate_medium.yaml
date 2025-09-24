@@ -1,0 +1,8 @@
+benchmark: pd1-lm1b-transformer-2048
+config:
+  lr_decay_factor: 0.9433211200471447
+  lr_initial: 0.10641344848640878
+  lr_power: 0.6746364857695447
+  opt_momentum: 0.2612700241932082
+objective: valid_error_rate
+prior_name: medium

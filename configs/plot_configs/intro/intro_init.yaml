@@ -1,0 +1,21 @@
+exp_dir: ablation1_25
+output_dir: /home/XXXX/XXXX/plots/intro/
+save_suffix: init_design_gains-ov-all
+avg_prior_label: overall-all
+priors_to_avg:
+  - good-good
+  - bad-good
+  - bad-bad
+skip_non_avg: True
+skip_opt:
+  - NepsMOASHA_RS
+  - NepsRW
+  - NepsMOASHAPiBORW
+which_labels: ablation
+which_plots:
+  - ov_rank
+  - hv
+specific_fig_params:
+  - xylabel_fontsize=20
+  - ovrank_xsize=6
+  - ovrank_ysize=4

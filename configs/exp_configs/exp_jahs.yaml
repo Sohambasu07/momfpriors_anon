@@ -1,0 +1,35 @@
+optimizers:
+  - name: RandomSearchWithPriors
+  - name: RandomSearch
+  - name: SMAC_ParEGO
+  - name: NepsRW
+  - name: NepsHyperbandRW
+  - name: Nevergrad_EvolutionStrategy
+  - name: NepsMOASHA
+benchmarks:
+  - name: jahs-CIFAR10
+    objectives:
+      valid_acc: good
+      runtime: good
+  - name: jahs-CIFAR10
+    objectives:
+      valid_acc: bad
+      runtime: bad
+  - name: jahs-ColorectalHistology
+    objectives:
+      valid_acc: good
+      runtime: good
+  - name: jahs-ColorectalHistology
+    objectives:
+      valid_acc: bad
+      runtime: bad
+  - name: jahs-FashionMNIST
+    objectives:
+      valid_acc: good
+      runtime: good
+  - name: jahs-FashionMNIST
+    objectives:
+      valid_acc: bad
+      runtime: bad
+num_seeds: 25
+num_iterations: 25

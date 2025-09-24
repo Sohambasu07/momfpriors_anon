@@ -1,0 +1,14 @@
+exp_dir: momfbo_vs_algo
+output_dir: /home/XXXX/XXXX/plots/appendix_extra/
+skip_priors:
+  - bad-good
+  - bad-bad
+save_suffix: momfbo_comp_good_good
+which_labels: "1"
+which_plots:
+  - hv
+  - pareto
+specific_fig_params:
+  - xylabel_fontsize=20
+  - ovrank_xsize=6
+  - ovrank_ysize=4

@@ -1,0 +1,2 @@
+xgboost>=1.7
+ConfigSpace==1.2.1

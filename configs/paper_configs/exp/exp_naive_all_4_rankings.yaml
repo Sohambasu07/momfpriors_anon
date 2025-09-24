@@ -1,0 +1,18 @@
+yaml_files:
+  - configs/paper_configs/exp/exp_naive_overall.yaml
+  - configs/paper_configs/exp/exp_naive_all_good.yaml
+  - configs/paper_configs/exp/exp_naive_mixed.yaml
+  - configs/paper_configs/exp/exp_naive_all_bad.yaml
+output_dir: /home/XXXX/XXXX/ICLR/plots/exp/
+save_suffix: exp_naive_all_rankings
+file_type: pdf
+figsize:
+  - 16
+  - 4
+sub_labels:
+  - Overall
+  - All priors good
+  - Mixed priors
+  - All priors bad
+remove_prior_annots: true
+ylim: 4

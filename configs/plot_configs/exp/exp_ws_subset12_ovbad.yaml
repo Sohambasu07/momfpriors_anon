@@ -1,0 +1,18 @@
+exp_dir: subset12_merge
+output_dir: /home/XXXX/XXXX/plots/ws/
+priors_to_avg:
+  - bad-good
+  - bad-bad
+skip_priors:
+  - good-good
+save_suffix: subset12_ov_bad
+# skip_opt:
+#   - RandomSearchWithPriors
+which_labels: "1"
+which_plots:
+  - ov_rank
+specific_fig_params:
+  - xylabel_fontsize=20
+  - ovrank_xsize=6
+  - ovrank_ysize=4
+  - bbox_to_anchor=(0.5, -0.08)

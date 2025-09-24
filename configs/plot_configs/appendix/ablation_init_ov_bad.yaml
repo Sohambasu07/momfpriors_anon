@@ -1,0 +1,17 @@
+exp_dir: ablation_init_25
+output_dir: /home/XXXX/XXXX/plots/appendix_ablation/
+save_suffix: ablation_init_ov-bad
+avg_prior_label: overall-bad
+priors_to_avg:
+  - bad-good
+  - bad-bad
+skip_non_avg: True
+which_labels: 1
+which_plots:
+  - hv
+  - pareto
+specific_fig_params:
+  - xylabel_fontsize=20
+  - ovrank_xsize=6
+  - ovrank_ysize=4
+plot_title: overall-bad

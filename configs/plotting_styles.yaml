@@ -1,0 +1,38 @@
+markers:
+  good-good: "o"      # Circle
+  good-bad: "v"       # Triangle Down
+  good-medium: "s"    # Square
+  good: "h"      # Hexagon
+  bad-good: "^"       # Triangle Up
+  bad-bad: "x"        # X
+  bad-medium: "d"     # Diamond
+  bad: "P"       # Plus (Filled)
+  medium-good: "p"    # Pentagon
+  medium-bad: "*"     # Star
+  medium-medium: "+"  # Plus
+  medium: "8"    # Octagon
+
+
+colors:
+  SMAC_ParEGO: blue
+  RandomSearch: olive
+  NepsRW: lightseagreen
+  NepsHyperbandRW: darkgreen
+  NepsHyperbandRW_w_continuations: slategray
+  Nevergrad_EvolutionStrategy: orange
+  MOMFBO: purple
+  MOMFBO_w_continuations: darkpink
+  NepsMOASHA: salmon
+  NepsMOASHA_w_continuations: darkviolet
+  RandomSearchWithPriors-good-good: red
+  RandomSearchWithPriors-good-bad: teal
+  RandomSearchWithPriors-good-medium: deepskyblue
+  RandomSearchWithPriors-good: tomato
+  RandomSearchWithPriors-bad-good: darkcyan
+  RandomSearchWithPriors-bad-bad: mediumslateblue
+  RandomSearchWithPriors-bad-medium: crimson
+  RandomSearchWithPriors-bad: green
+  RandomSearchWithPriors-medium-good: darkorange
+  RandomSearchWithPriors-medium-bad: mediumturquoise
+  RandomSearchWithPriors-medium-medium: orchid
+  RandomSearchWithPriors-medium: sienna

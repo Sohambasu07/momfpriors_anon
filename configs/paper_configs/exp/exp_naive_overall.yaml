@@ -1,0 +1,21 @@
+exp_dir: all_naive_20
+output_dir: /home/XXXX/XXXX/ICLR/plots/exp/
+priors_to_avg:
+  - good-good
+  - bad-bad
+  - bad-good
+  - good-bad
+save_suffix: exp_naive_overall
+avg_prior_label: overall
+skip_non_avg: true
+skip_opt:
+  - NepsPriMO
+skip_bench:
+  - MOMFPark
+which_labels: "1"
+which_plots:
+  - hv
+specific_fig_params:
+  - xylabel_fontsize=20
+  - ovrank_xsize=6
+  - ovrank_ysize=4

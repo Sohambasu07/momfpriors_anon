@@ -1,0 +1,17 @@
+yaml_files:
+  - configs/plot_configs/sig/cd_subset12_goodgood.yaml
+  - configs/plot_configs/sig/cd_subset12_ov_bad.yaml
+  - configs/plot_configs/sig/cd_subset12_ov_all.yaml
+output_dir: /home/XXXX/XXXX/plots/sig_analysis/
+save_suffix: all_cd_plots_20
+file_type: pdf
+figsize:
+  - 18
+  - 6
+sub_labels:
+  - good-good
+  - overall-bad
+  - overall-all
+remove_prior_annots: true
+at_iteration: 20
+normalize_hv: true

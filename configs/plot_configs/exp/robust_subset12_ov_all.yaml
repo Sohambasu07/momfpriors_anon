@@ -1,0 +1,22 @@
+exp_dir: subset12_merge
+output_dir: /home/XXXX/XXXX/plots/exp/
+skip_non_avg: true
+priors_to_avg:
+  - good-good
+  - bad-good
+  - bad-bad
+avg_prior_label: overall-all
+save_suffix: subset12_robust_ov_all
+skip_opt:
+  - RandomSearchWithPriors
+  - Nevergrad_EvolutionStrategy
+which_labels: "1"
+which_plots:
+  - hv
+  - pareto
+  - ov_rank
+specific_fig_params:
+  - xylabel_fontsize=20
+  - ovrank_xsize=6
+  - ovrank_ysize=4
+  - bbox_to_anchor=(0.5, -0.08)

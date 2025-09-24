@@ -1,0 +1,18 @@
+benchmark: jahs-FashionMNIST
+config:
+  Activation: ReLU
+  LearningRate: 0.048275346728161486
+  N: 5
+  Op1: 0
+  Op2: 1
+  Op3: 1
+  Op4: 0
+  Op5: 1
+  Op6: 1
+  Optimizer: SGD
+  Resolution: 1.0
+  TrivialAugment: true
+  W: 16
+  WeightDecay: 3.970479049949511e-05
+objective: runtime
+prior_name: medium

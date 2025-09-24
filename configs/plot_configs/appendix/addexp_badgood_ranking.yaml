@@ -1,0 +1,9 @@
+yaml_files:
+  - configs/plot_configs/appendix/addexp_subset1_badgood.yaml
+  - configs/plot_configs/appendix/addexp_subset2_badgood.yaml
+output_dir: /home/XXXX/XXXX/plots/appendix_extra/
+save_suffix: addexp_subset12_badgood_ranking
+file_type: pdf
+figsize:
+  - 14
+  - 6

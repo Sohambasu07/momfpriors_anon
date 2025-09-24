@@ -1,0 +1,8 @@
+benchmark: pd1-imagenet-resnet-512
+config:
+  lr_decay_factor: 0.0257090406647
+  lr_initial: 4.030118510000003e-05
+  lr_power: 1.0
+  opt_momentum: 0.4696403516704001
+objective: train_cost
+prior_name: bad

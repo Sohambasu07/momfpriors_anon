@@ -1,0 +1,17 @@
+benchmarks:
+  pd1-cifar100-wide_resnet-2048:
+    - valid_error_rate
+    - train_cost
+  pd1-imagenet-resnet-512:
+    - valid_error_rate
+    - train_cost
+  pd1-lm1b-transformer-2048:
+    - valid_error_rate
+    - train_cost
+  pd1-translate_wmt-xformer_translate-64:
+    - valid_error_rate
+    - train_cost
+prior_spec:
+  - [good, 0, 0.01, null]
+  - [medium, 0, 0.125, null]
+  - [bad, -1, 0, null]

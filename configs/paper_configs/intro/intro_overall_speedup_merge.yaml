@@ -1,0 +1,13 @@
+yaml_files:
+  - configs/paper_configs/intro/intro_overall.yaml
+  - configs/paper_configs/intro/speedup.yaml
+output_dir: /home/XXXX/XXXX/ICLR/plots/intro/
+save_suffix: intro_overall_speedup_merge
+file_type: pdf
+figsize:
+  - 12
+  - 4
+sub_labels:
+  - Overall
+  - Language Model (XFormer)
+remove_prior_annots: true

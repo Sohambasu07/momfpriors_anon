@@ -1,0 +1,20 @@
+exp_dir: subset2
+output_dir: /home/XXXX/XXXX/plots/exp/
+skip_non_avg: true
+priors_to_avg:
+  - bad-good
+  - bad-bad
+avg_prior_label: overall-bad
+save_suffix: subset2_robust_ov_bad
+skip_opt:
+  - NepsMOASHA
+  - NepsMOASHABO
+  - NepsPriorMOASHA
+which_labels: "1"
+which_plots:
+  - hv
+  - pareto
+specific_fig_params:
+  - xylabel_fontsize=20
+  - ovrank_xsize=6
+  - ovrank_ysize=4

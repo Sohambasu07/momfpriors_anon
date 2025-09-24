@@ -1,0 +1,11 @@
+benchmark: yahpo-lcbench-189908
+config:
+  batch_size: 170
+  learning_rate: 0.08053908357966667
+  max_dropout: 0.6078498522185968
+  max_units: 1024
+  momentum: 0.44765506476209677
+  num_layers: 5
+  weight_decay: 0.0026785730764967665
+objective: val_accuracy
+prior_name: good

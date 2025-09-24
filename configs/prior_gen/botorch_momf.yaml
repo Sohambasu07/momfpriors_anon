@@ -1,0 +1,11 @@
+benchmarks:
+  MOMFPark: 
+    - value1
+    - value2
+  MOMFBraninCurrin: 
+    - value1
+    - value2
+prior_spec:
+  - [good, 0, 0.01, null]
+  - [medium, 0, 0.125, null]
+  - [bad, -1, 0, null]

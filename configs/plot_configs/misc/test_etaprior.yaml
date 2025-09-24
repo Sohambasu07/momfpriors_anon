@@ -1,0 +1,21 @@
+exp_dir: test_eta_prior
+output_dir: /home/XXXX/XXXX/plots/test/
+# skip_priors:
+#   - bad-good
+#   - bad-bad
+save_suffix: all
+skip_opt:
+    - NepsMOASHABO
+#   - RandomSearch
+#   - Nevergrad_EvolutionStrategy
+#   - SMAC_ParEGO
+#   - NepsHyperbandRW
+which_labels: "1"
+which_plots:
+  - hv
+  - pareto
+  - ov_rank
+specific_fig_params:
+  - xylabel_fontsize=20
+  - ovrank_xsize=6
+  - ovrank_ysize=4

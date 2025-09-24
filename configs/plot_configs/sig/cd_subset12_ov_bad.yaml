@@ -1,0 +1,17 @@
+exp_dir: subset12_merge
+output_dir: /home/XXXX/XXXX/plots/sig_analysis/
+skip_non_avg: true
+priors_to_avg:
+  - bad-good
+  - bad-bad
+avg_prior_label: overall-bad
+save_suffix: cd_plots_subset12_ov-bad_10
+skip_opt:
+  # - RandomSearchWithPriors
+  # - RandomSearch
+  # - SMAC_ParEGO
+  # - Nevergrad_EvolutionStrategy
+  # - NepsHyperbandRW
+  # - NepsRW
+  # - NepsMOASHA
+which_labels: "sig"

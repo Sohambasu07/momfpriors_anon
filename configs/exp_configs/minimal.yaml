@@ -1,0 +1,9 @@
+optimizers:
+  - name: NepsPriMO
+benchmarks:
+  - name: MOMFPark
+    objectives:
+      value1: good
+      value2: good
+num_seeds: 25
+num_iterations: 20

@@ -1,0 +1,6 @@
+benchmark: MOMFBraninCurrin
+config:
+  x0: 0.0056631004996967665
+  x1: 0.0020964329371967664
+objective: value1
+prior_name: good

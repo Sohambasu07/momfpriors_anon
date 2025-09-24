@@ -1,0 +1,17 @@
+exp_dir: subset1
+output_dir: /home/XXXX/XXXX/plots/appendix_extra/
+skip_priors:
+  - good-good
+  - bad-bad
+save_suffix: subset1_robust_bad-good
+skip_opt:
+  - RandomSearchWithPriors
+which_labels: "1"
+which_plots:
+  - hv
+  - pareto
+  - ov_rank
+specific_fig_params:
+  - xylabel_fontsize=20
+  - ovrank_xsize=6
+  - ovrank_ysize=4

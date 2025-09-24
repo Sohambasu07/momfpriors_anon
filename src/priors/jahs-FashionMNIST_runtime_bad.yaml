@@ -1,0 +1,18 @@
+benchmark: jahs-FashionMNIST
+config:
+  Activation: Mish
+  LearningRate: 0.3945045800416
+  N: 5
+  Op1: 1
+  Op2: 0
+  Op3: 4
+  Op4: 3
+  Op5: 2
+  Op6: 0
+  Optimizer: SGD
+  Resolution: 1.0
+  TrivialAugment: true
+  W: 16
+  WeightDecay: 0.003217643935000001
+objective: runtime
+prior_name: bad

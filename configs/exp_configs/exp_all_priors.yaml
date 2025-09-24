@@ -1,0 +1,125 @@
+optimizers:
+  - name: RandomSearchWithPriors
+  - name: NepsMOPriorband
+  - name: NepsPriorMOASHA
+  - name: NepsPiBORW
+  - name: NepsPriMO
+benchmarks:
+
+  # good-good
+
+  - name: MOMFPark
+    objectives:
+      value1: good
+      value2: good
+  - name: pd1-cifar100-wide_resnet-2048
+    objectives:
+      valid_error_rate: good
+      train_cost: good
+  - name: pd1-imagenet-resnet-512
+    objectives:
+      valid_error_rate: good
+      train_cost: good
+  - name: pd1-lm1b-transformer-2048
+    objectives:
+      valid_error_rate: good
+      train_cost: good
+  - name: pd1-translate_wmt-xformer_translate-64
+    objectives:
+      valid_error_rate: good
+      train_cost: good
+  - name: yahpo-lcbench-126026
+    objectives:
+      val_cross_entropy: good
+      time: good
+  - name: yahpo-lcbench-146212
+    objectives:
+      val_cross_entropy: good
+      time: good
+  - name: yahpo-lcbench-168330
+    objectives:
+      val_cross_entropy: good
+      time: good
+  - name: yahpo-lcbench-168868
+    objectives:
+      val_cross_entropy: good
+      time: good
+
+  # bad-good
+  - name: MOMFPark
+    objectives:
+      value1: bad
+      value2: good
+  - name: pd1-cifar100-wide_resnet-2048
+    objectives:
+      valid_error_rate: bad
+      train_cost: good
+  - name: pd1-imagenet-resnet-512
+    objectives:
+      valid_error_rate: bad
+      train_cost: good
+  - name: pd1-lm1b-transformer-2048
+    objectives:
+      valid_error_rate: bad
+      train_cost: good
+  - name: pd1-translate_wmt-xformer_translate-64
+    objectives:
+      valid_error_rate: bad
+      train_cost: good
+  - name: yahpo-lcbench-126026
+    objectives:
+      val_cross_entropy: bad
+      time: good
+  - name: yahpo-lcbench-146212
+    objectives:
+      val_cross_entropy: bad
+      time: good
+  - name: yahpo-lcbench-168330
+    objectives:
+      val_cross_entropy: bad
+      time: good
+  - name: yahpo-lcbench-168868
+    objectives:
+      val_cross_entropy: bad
+      time: good
+
+  # bad-bad
+
+  - name: MOMFPark
+    objectives:
+      value1: bad
+      value2: bad
+  - name: pd1-cifar100-wide_resnet-2048
+    objectives:
+      valid_error_rate: bad
+      train_cost: bad
+  - name: pd1-imagenet-resnet-512
+    objectives:
+      valid_error_rate: bad
+      train_cost: bad
+  - name: pd1-lm1b-transformer-2048
+    objectives:
+      valid_error_rate: bad
+      train_cost: bad
+  - name: pd1-translate_wmt-xformer_translate-64
+    objectives:
+      valid_error_rate: bad
+      train_cost: bad
+  - name: yahpo-lcbench-126026
+    objectives:
+      val_cross_entropy: bad
+      time: bad
+  - name: yahpo-lcbench-146212
+    objectives:
+      val_cross_entropy: bad
+      time: bad
+  - name: yahpo-lcbench-168330
+    objectives:
+      val_cross_entropy: bad
+      time: bad
+  - name: yahpo-lcbench-168868
+    objectives:
+      val_cross_entropy: bad
+      time: bad
+num_seeds: 25
+num_iterations: 25

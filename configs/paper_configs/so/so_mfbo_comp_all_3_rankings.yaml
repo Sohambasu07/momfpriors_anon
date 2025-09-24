@@ -1,0 +1,15 @@
+yaml_files:
+  - configs/paper_configs/so/so_mfbo_comp_overall.yaml
+  - configs/paper_configs/so/so_mfbo_comp_good.yaml
+  - configs/paper_configs/so/so_mfbo_comp_bad.yaml
+output_dir: /home/XXXX/XXXX/ICLR/plots/SO/
+save_suffix: so_mfbo_comp_all_rankings
+file_type: pdf
+figsize:
+  - 12
+  - 4
+sub_labels:
+  - Overall
+  - Good Prior
+  - Bad Prior
+remove_prior_annots: true

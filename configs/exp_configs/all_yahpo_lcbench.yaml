@@ -1,0 +1,290 @@
+optimizers:
+  - name: RandomSearchWithPriors
+  - name: RandomSearch
+  - name: SMAC_ParEGO
+  - name: NepsRW
+  - name: NepsHyperbandRW
+  - name: Nevergrad_EvolutionStrategy
+benchmarks:
+  - name: yahpo-lcbench-3945
+    objectives:
+      val_cross_entropy: good
+      time: good
+  - name: yahpo-lcbench-3945
+    objectives:
+      val_cross_entropy: bad
+      time: bad
+
+  - name: yahpo-lcbench-7593
+    objectives:
+      val_cross_entropy: good
+      time: good
+  - name: yahpo-lcbench-7593
+    objectives:
+      val_cross_entropy: bad
+      time: bad
+
+  - name: yahpo-lcbench-34539
+    objectives:
+      val_cross_entropy: good
+      time: good
+  - name: yahpo-lcbench-34539
+    objectives:
+      val_cross_entropy: bad
+      time: bad
+
+  - name: yahpo-lcbench-126025
+    objectives:
+      val_cross_entropy: good
+      time: good
+  - name: yahpo-lcbench-126025
+    objectives:
+      val_cross_entropy: bad
+      time: bad
+
+  - name: yahpo-lcbench-126026
+    objectives:
+      val_cross_entropy: good
+      time: good
+  - name: yahpo-lcbench-126026
+    objectives:
+      val_cross_entropy: bad
+      time: bad
+
+  - name: yahpo-lcbench-126029
+    objectives:
+      val_cross_entropy: good
+      time: good
+  - name: yahpo-lcbench-126029
+    objectives:
+      val_cross_entropy: bad
+      time: bad
+
+  - name: yahpo-lcbench-146212
+    objectives:
+      val_cross_entropy: good
+      time: good
+  - name: yahpo-lcbench-146212
+    objectives:
+      val_cross_entropy: bad
+      time: bad
+
+  - name: yahpo-lcbench-167104
+    objectives:
+      val_cross_entropy: good
+      time: good
+  - name: yahpo-lcbench-167104
+    objectives:
+      val_cross_entropy: bad
+      time: bad
+
+  - name: yahpo-lcbench-167149
+    objectives:
+      val_cross_entropy: good
+      time: good
+  - name: yahpo-lcbench-167149
+    objectives:
+      val_cross_entropy: bad
+      time: bad
+
+  - name: yahpo-lcbench-167152
+    objectives:
+      val_cross_entropy: good
+      time: good
+  - name: yahpo-lcbench-167152
+    objectives:
+      val_cross_entropy: bad
+      time: bad
+
+  - name: yahpo-lcbench-167161
+    objectives:
+      val_cross_entropy: good
+      time: good
+  - name: yahpo-lcbench-167161
+    objectives:
+      val_cross_entropy: bad
+      time: bad
+
+  - name: yahpo-lcbench-167168
+    objectives:
+      val_cross_entropy: good
+      time: good
+  - name: yahpo-lcbench-167168
+    objectives:
+      val_cross_entropy: bad
+      time: bad
+
+  - name: yahpo-lcbench-167181
+    objectives:
+      val_cross_entropy: good
+      time: good
+  - name: yahpo-lcbench-167181
+    objectives:
+      val_cross_entropy: bad
+      time: bad
+
+  - name: yahpo-lcbench-167184
+    objectives:
+      val_cross_entropy: good
+      time: good
+  - name: yahpo-lcbench-167184
+    objectives:
+      val_cross_entropy: bad
+      time: bad
+
+  - name: yahpo-lcbench-167185
+    objectives:
+      val_cross_entropy: good
+      time: good
+  - name: yahpo-lcbench-167185
+    objectives:
+      val_cross_entropy: bad
+      time: bad
+
+  - name: yahpo-lcbench-167190
+    objectives:
+      val_cross_entropy: good
+      time: good
+  - name: yahpo-lcbench-167190
+    objectives:
+      val_cross_entropy: bad
+      time: bad
+
+  - name: yahpo-lcbench-167200
+    objectives:
+      val_cross_entropy: good
+      time: good
+  - name: yahpo-lcbench-167200
+    objectives:
+      val_cross_entropy: bad
+      time: bad
+
+  - name: yahpo-lcbench-167201
+    objectives:
+      val_cross_entropy: good
+      time: good
+  - name: yahpo-lcbench-167201
+    objectives:
+      val_cross_entropy: bad
+      time: bad
+
+  - name: yahpo-lcbench-168329
+    objectives:
+      val_cross_entropy: good
+      time: good
+  - name: yahpo-lcbench-168329
+    objectives:
+      val_cross_entropy: bad
+      time: bad
+
+  - name: yahpo-lcbench-168330
+    objectives:
+      val_cross_entropy: good
+      time: good
+  - name: yahpo-lcbench-168330
+    objectives:
+      val_cross_entropy: bad
+      time: bad
+
+  - name: yahpo-lcbench-168331
+    objectives:
+      val_cross_entropy: good
+      time: good
+  - name: yahpo-lcbench-168331
+    objectives:
+      val_cross_entropy: bad
+      time: bad
+
+  - name: yahpo-lcbench-168335
+    objectives:
+      val_cross_entropy: good
+      time: good
+  - name: yahpo-lcbench-168335
+    objectives:
+      val_cross_entropy: bad
+      time: bad
+
+  - name: yahpo-lcbench-168868
+    objectives:
+      val_cross_entropy: good
+      time: good
+  - name: yahpo-lcbench-168868
+    objectives:
+      val_cross_entropy: bad
+      time: bad
+
+  - name: yahpo-lcbench-168908
+    objectives:
+      val_cross_entropy: good
+      time: good
+  - name: yahpo-lcbench-168908
+    objectives:
+      val_cross_entropy: bad
+      time: bad
+
+  - name: yahpo-lcbench-168910
+    objectives:
+      val_cross_entropy: good
+      time: good
+  - name: yahpo-lcbench-168910
+    objectives:
+      val_cross_entropy: bad
+      time: bad
+
+  - name: yahpo-lcbench-189354
+    objectives:
+      val_cross_entropy: good
+      time: good
+  - name: yahpo-lcbench-189354
+    objectives:
+      val_cross_entropy: bad
+      time: bad
+
+  - name: yahpo-lcbench-189862
+    objectives:
+      val_cross_entropy: good
+      time: good
+  - name: yahpo-lcbench-189862
+    objectives:
+      val_cross_entropy: bad
+      time: bad
+
+  - name: yahpo-lcbench-189865
+    objectives:
+      val_cross_entropy: good
+      time: good
+  - name: yahpo-lcbench-189865
+    objectives:
+      val_cross_entropy: bad
+      time: bad
+
+  - name: yahpo-lcbench-189866
+    objectives:
+      val_cross_entropy: good
+      time: good
+  - name: yahpo-lcbench-189866
+    objectives:
+      val_cross_entropy: bad
+      time: bad
+
+  - name: yahpo-lcbench-189873
+    objectives:
+      val_cross_entropy: good
+      time: good
+  - name: yahpo-lcbench-189873
+    objectives:
+      val_cross_entropy: bad
+      time: bad
+
+  - name: yahpo-lcbench-189905
+    objectives:
+      val_cross_entropy: good
+      time: good
+  - name: yahpo-lcbench-189905
+    objectives:
+      val_cross_entropy: bad
+      time: bad
+
+
+num_seeds: 25
+num_iterations: 25

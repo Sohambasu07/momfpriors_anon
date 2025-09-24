@@ -1,0 +1,19 @@
+exp_dir: ablation_algos_20
+output_dir: /home/XXXX/XXXX/plots/ICLR/exp/
+save_suffix: ablation_algos_all_bad
+skip_priors:
+  - good-good
+  - bad-good
+  - good-bad
+skip_opt:
+  - NepsEtaPriorPriMO
+  - NepsEtaPriorMFPriMO
+skip_bench:
+  - MOMFPark
+which_labels: ablation
+which_plots:
+  - hv
+specific_fig_params:
+  - xylabel_fontsize=20
+  - ovrank_xsize=6
+  - ovrank_ysize=4

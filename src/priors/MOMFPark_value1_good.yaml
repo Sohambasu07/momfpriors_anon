@@ -1,0 +1,8 @@
+benchmark: MOMFPark
+config:
+  x0: 0.007811940491496767
+  x1: 0.13644692166099678
+  x2: 0.05439304128629676
+  x3: 0.00026725551589676643
+objective: value1
+prior_name: good

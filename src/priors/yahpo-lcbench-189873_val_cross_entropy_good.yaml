@@ -1,0 +1,11 @@
+benchmark: yahpo-lcbench-189873
+config:
+  batch_size: 70
+  learning_rate: 0.09872130137567461
+  max_dropout: 0.5433791643211967
+  max_units: 827
+  momentum: 0.5684841254635967
+  num_layers: 5
+  weight_decay: 0.00022091908469676642
+objective: val_cross_entropy
+prior_name: good

@@ -1,0 +1,18 @@
+benchmark: jahs-CIFAR10
+config:
+  Activation: ReLU
+  LearningRate: 0.043475259231394545
+  N: 5
+  Op1: 0
+  Op2: 0
+  Op3: 0
+  Op4: 0
+  Op5: 1
+  Op6: 1
+  Optimizer: SGD
+  Resolution: 1.0
+  TrivialAugment: false
+  W: 16
+  WeightDecay: 0.004315780676555692
+objective: runtime
+prior_name: good

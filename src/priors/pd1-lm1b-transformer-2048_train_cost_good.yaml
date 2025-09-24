@@ -1,0 +1,8 @@
+benchmark: pd1-lm1b-transformer-2048
+config:
+  lr_decay_factor: 0.9141442449230968
+  lr_initial: 0.07839227609088906
+  lr_power: 1.0
+  opt_momentum: 0.992276378598531
+objective: train_cost
+prior_name: good

@@ -1,0 +1,21 @@
+exp_dir: subset2
+output_dir: /home/XXXX/XXXX/ICLR/plots/exp/
+skip_priors:
+  - good-good
+  - bad-good
+  - good-bad
+save_suffix: subset2_all_bad
+skip_opt:
+  - NepsMOASHA
+  - NepsMOASHABO
+  - NepsPriorMOASHA
+skip_bench:
+  - MOMFPark
+which_labels: "1"
+which_plots:
+  - hv
+specific_fig_params:
+  - bbox_to_anchor=(0.5, -0.08)
+figsize:
+  - 16
+  - 8

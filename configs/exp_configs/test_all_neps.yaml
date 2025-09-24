@@ -1,0 +1,21 @@
+optimizers:
+  - name: NepsRW
+  - name: NepsHyperbandRW
+  - name: NepsMOPriorband
+  - name: NepsMOHyperband
+  - name: NepsMOASHA
+  - name: NepsPriorMOASHA
+  - name: NepsPiBORW
+  - name: NepsMOASHABO
+  - name: NepsPriMO
+benchmarks:
+  - name: MOMFPark
+    objectives: 
+      value1: good
+      value2: good
+  - name: pd1-cifar100-wide_resnet-2048
+    objectives:
+      valid_error_rate: good
+      train_cost: good
+num_seeds: 3
+num_iterations: 15

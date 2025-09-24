@@ -1,0 +1,26 @@
+optimizers:
+  - name: NepsRW
+  - name: NepsMOASHABO
+benchmarks:
+  - name: MOMFPark
+    objectives: 
+      value1: null
+      value2: null
+  - name: pd1-cifar100-wide_resnet-2048
+    objectives:
+      valid_error_rate: null
+      train_cost: null
+  - name: pd1-imagenet-resnet-512
+    objectives:
+      valid_error_rate: null
+      train_cost: null
+  - name: yahpo-lcbench-146212
+    objectives:
+      val_cross_entropy: null
+      time: null
+  - name: yahpo-lcbench-168330
+    objectives:
+      val_cross_entropy: null
+      time: null
+num_seeds: 3
+num_iterations: 25

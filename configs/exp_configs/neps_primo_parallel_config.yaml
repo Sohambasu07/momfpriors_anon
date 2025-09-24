@@ -1,0 +1,73 @@
+exp_name: primo_neps_parallel
+partition: bosch_cpu-cascadelake
+cpus_total: 30
+time: 3-00:00:00
+optimizers:
+  - name: primo
+benchmarks:
+  - name: pd1-cifar100-wide_resnet-2048
+    objectives:
+      valid_error_rate: good
+      train_cost: good
+  - name: pd1-imagenet-resnet-512
+    objectives:
+      valid_error_rate: good
+      train_cost: good
+  - name: pd1-lm1b-transformer-2048
+    objectives:
+      valid_error_rate: good
+      train_cost: good
+  - name: pd1-translate_wmt-xformer_translate-64
+    objectives:
+      valid_error_rate: good
+      train_cost: good
+  - name: pd1-cifar100-wide_resnet-2048
+    objectives:
+      valid_error_rate: bad
+      train_cost: bad
+  - name: pd1-imagenet-resnet-512
+    objectives:
+      valid_error_rate: bad
+      train_cost: bad
+  - name: pd1-lm1b-transformer-2048
+    objectives:
+      valid_error_rate: bad
+      train_cost: bad
+  - name: pd1-translate_wmt-xformer_translate-64
+    objectives:
+      valid_error_rate: bad
+      train_cost: bad
+  - name: pd1-cifar100-wide_resnet-2048
+    objectives:
+      valid_error_rate: good
+      train_cost: bad
+  - name: pd1-imagenet-resnet-512
+    objectives:
+      valid_error_rate: good
+      train_cost: bad
+  - name: pd1-lm1b-transformer-2048
+    objectives:
+      valid_error_rate: good
+      train_cost: bad
+  - name: pd1-translate_wmt-xformer_translate-64
+    objectives:
+      valid_error_rate: good
+      train_cost: bad
+  - name: pd1-cifar100-wide_resnet-2048
+    objectives:
+      valid_error_rate: bad
+      train_cost: good
+  - name: pd1-imagenet-resnet-512
+    objectives:
+      valid_error_rate: bad
+      train_cost: good
+  - name: pd1-lm1b-transformer-2048
+    objectives:
+      valid_error_rate: bad
+      train_cost: good
+  - name: pd1-translate_wmt-xformer_translate-64
+    objectives:
+      valid_error_rate: bad
+      train_cost: good
+num_seeds: 25
+max_evaluations: 20

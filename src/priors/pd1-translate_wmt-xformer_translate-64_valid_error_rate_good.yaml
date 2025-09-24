@@ -1,0 +1,8 @@
+benchmark: pd1-translate_wmt-xformer_translate-64
+config:
+  lr_decay_factor: 0.9327693262900967
+  lr_initial: 0.17362286664571258
+  lr_power: 0.10292254597129677
+  opt_momentum: 0.49974717399085633
+objective: valid_error_rate
+prior_name: good

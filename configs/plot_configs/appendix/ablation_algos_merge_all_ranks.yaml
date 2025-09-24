@@ -1,0 +1,15 @@
+yaml_files:
+  - configs/plot_configs/appendix/ablation_algos_goodgood.yaml
+  - configs/plot_configs/appendix/ablation_algos_ov_bad.yaml
+  - configs/plot_configs/appendix/ablation_algos_ov_all.yaml
+output_dir: /home/XXXX/XXXX/plots/appendix_ablation/
+save_suffix: ablation_algos_all_ranks
+file_type: pdf
+figsize:
+  - 18
+  - 6
+sub_labels:
+  - good-good
+  - overall-bad
+  - overall-all
+remove_prior_annots: true

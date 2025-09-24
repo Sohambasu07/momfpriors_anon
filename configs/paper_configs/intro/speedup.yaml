@@ -1,0 +1,37 @@
+exp_dir: subset1_100_2
+output_dir: /home/XXXX/XXXX/ICLR/plots/intro/
+skip_priors:
+  - bad-good
+  - good-bad
+  - bad-bad
+save_suffix: speed_up_WMT_100_goodgood
+skip_opt:
+  - RandomSearchWithPriors
+  - RandomSearch
+  - NepsHyperbandRW
+  - Nevergrad_EvolutionStrategy
+which_labels: "1"
+which_plots:
+  - hv
+file_type: pdf
+specific_fig_params:
+  # - legend_fontsize=10
+  # - title_fontsize=10
+  # - fig_size=(7,5)
+  # - xylabel_fontsize=26
+  # - xytick_labelsize=18
+  # - ovrank_xsize=6
+  # - ovrank_ysize=4
+  - bbox_to_anchor=(0.5, -0.18)
+which_benchmarks: pd1-translate_wmt-xformer_translate-64
+prior_annotations: null
+figsize:
+  - 6
+  - 4
+plot_type: hv
+ylim: 8000
+yticks:
+  - 8000
+  - 9000
+  - 10000
+  - 11000

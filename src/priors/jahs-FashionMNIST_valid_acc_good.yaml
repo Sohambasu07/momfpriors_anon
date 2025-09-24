@@ -1,0 +1,18 @@
+benchmark: jahs-FashionMNIST
+config:
+  Activation: Hardswish
+  LearningRate: 0.4277702485557915
+  N: 5
+  Op1: 2
+  Op2: 2
+  Op3: 0
+  Op4: 3
+  Op5: 3
+  Op6: 3
+  Optimizer: SGD
+  Resolution: 1.0
+  TrivialAugment: true
+  W: 16
+  WeightDecay: 2.0825450994555775e-05
+objective: valid_acc
+prior_name: good

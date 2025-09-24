@@ -1,0 +1,19 @@
+yaml_files:
+  - configs/paper_configs/sig/cd_subset12_overall.yaml
+  - configs/paper_configs/sig/cd_subset12_all_good.yaml
+  - configs/paper_configs/sig/cd_subset12_mixed.yaml
+  - configs/paper_configs/sig/cd_subset12_all_bad.yaml
+output_dir: /home/XXXX/XXXX/ICLR/plots/sig_analysis/
+save_suffix: all_cd_plots_10
+file_type: pdf
+figsize:
+  - 16
+  - 4
+sub_labels:
+  - Overall
+  - All priors good
+  - Mixed priors
+  - All priors bad
+remove_prior_annots: true
+at_iteration: 10
+normalize_hv: true

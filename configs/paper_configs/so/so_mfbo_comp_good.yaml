@@ -1,0 +1,20 @@
+exp_dir: singleobj_mfbo
+output_dir: /home/XXXX/XXXX//ICLR/plots/SO
+save_suffix: so_mfbo_comp_good
+skip_priors:
+  - bad
+which_labels: SO
+file_type: pdf
+skip_benchmarks:
+  - mfh6_good
+skip_opt:
+  - NepsPriorband
+which_plots:
+  - perf
+  - rank
+  - ov_rank
+specific_fig_params:
+  - xylabel_fontsize=20
+  - ovrank_xsize=6
+  - ovrank_ysize=4
+  - fig_size=(20,10)
